@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.233d97d295780e92d03f961e658031f8?rik=kZYQ33Fwk0thrg&riu=http%3a%2f%2faminus3.s3.amazonaws.com%2fimage%2fg0001%2fu00000360%2fi00031647%2fda9456c1e1ada3224f355d24ca8f9af1_large.jpg&ehk=AHGGv2ne6ZNFDZ5rU7rViHqTa%2bkGJ3J7b%2f54%2biuNJ%2b0%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /*to avoid image repetition if you have a background image, this will take the entire viewport */
+    height:100vh;
+}
+
+
+.container {
+    background: white;
+    opacity: 0.90;
+    max-width: 80%;
+    margin: auto; /* this helps centering */
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+button {
+    /*border: none; */
+    border: 1px solid #211717;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#decrement-btn {
+    background: red;
+}
+
+#reset-btn {
+    background: blue;
+}
+
+#increment-btn {
+    background: green;
+}
+
+#save-btn {
+    background: purple;
+}
+
+#auto-save-btn {
+    background: black;
+}
